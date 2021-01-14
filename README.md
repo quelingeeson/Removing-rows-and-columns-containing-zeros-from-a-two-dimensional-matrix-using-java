@@ -5,27 +5,27 @@ Input Specification: • The first line of input will have two integers, say, M 
 
 Output Specification: The output should be the resulting matrix. Each row of the output matrix should be terminated by a newline character. There should be exactly one space (not tab) between successive elements in each row.
 
-example1:
-Sample Input:
-4 4
-1 2 3 4
-0 0 0 0
-5 6 7 8
-0 0 0 3
-Sample Output:
-1 2 3 4
-5 6 7 8
-0 0 0 3
+example1:<br/>
+Sample Input:<br/>
+4 4<br/>
+1 2 3 4<br/>
+0 0 0 0<br/>
+5 6 7 8<br/>
+0 0 0 3<br/>
+Sample Output:<br/>
+1 2 3 4<br/>
+5 6 7 8<br/>
+0 0 0 3<br/>
 
 
-example2:
-Sample Input:
-4 5
-1 2 0 3 5
-0 0 0 0 0
-4 5 0 6 9
-7 8 0 9 1
-Sample Output:
-1 2 3 5
-4 5 6 9
-7 8 9 1
+example2:<br/>
+Sample Input:<br/>
+4 5<br/>
+1 2 0 3 5<br/>
+0 0 0 0 0<br/>
+4 5 0 6 9<br/>
+7 8 0 9 1<br/>
+Sample Output:<br/>
+1 2 3 5<br/>
+4 5 6 9<br/>
+7 8 9 1<br/>
