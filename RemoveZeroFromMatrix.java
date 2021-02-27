@@ -1,5 +1,3 @@
-package dsa;
-
 import java.util.Scanner;
 
 public class RemoveZeroFromMatrix {
@@ -14,7 +12,6 @@ public class RemoveZeroFromMatrix {
 		int[][] a=new int[m][n];
 		int[][] b=new int[m][n];
 		int[][] c=new int[m][n];
-		int[][] d=new int[m][n];
 		System.out.println("enter the matrix");
 		for(int i=0;i<m;i++)
 		{
@@ -59,18 +56,7 @@ public class RemoveZeroFromMatrix {
 			}
 			sumRow=0;
 		}
-//		
-//		System.out.println("b matrix is");
-//		for(int i=0;i<m-x;i++)
-//		{
-//			for(int j=0;j<n;j++)
-//			{
-//				
-//				System.out.print(b[i][j]+" ");
-//			}
-//			System.out.println();
-//		
-//		}
+
 		
 		int sumCol=0,y=0,temp=0;
 		for(int i=0;i<m;i++)
@@ -86,7 +72,7 @@ public class RemoveZeroFromMatrix {
 				
 				for(int k=0;k<n-x;k++)
 				{
-//					c[k][i]=b[k][i-temp];
+
 					if(temp==0)
 					{
 						c[k][i]=b[k][i];
@@ -94,22 +80,11 @@ public class RemoveZeroFromMatrix {
 					if(temp==1 && n>3)
 					{
 						c[k][i]=b[k][i+1];
-//						System.out.println(i);
+
 					}
 					
 				}
-//				for(int p=0;p<m;p++)
-//				{
-//					for(int q=0;q<n-x;q++)
-//					{
-//						c[q][p]=b[q][p+y];
-//					}
-//				}
-//				y=0;
-//				for(int k=0;k<n;k++)
-//				{
-//					c[k][i-y]=b[k][i];
-//				}
+
 			}
 			else
 			{
